@@ -1,0 +1,67 @@
+html body {
+  margin: 0;
+  padding: 0;
+}
+
+html body {
+  background: #fff;
+  color: #333;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+body h1 {
+  font-weight: 600;
+  font-size: 48px;
+  background-color: #333;
+  color: lime;
+  width: 25%;
+  margin-right: 37.5%;
+  margin-left: 37.5%;
+  text-shadow: 1px 1px 2px #fff;
+  border-left: solid #d9534f;
+  border-right: solid #d9534f;
+  border-radius: 10px;
+}
+
+body h3 {
+  width: 35%;
+  margin-right: 32.5%;
+  margin-left: 32.5%;
+
+}
+
+#warning{
+  display: none;
+  color: red;
+}
+
+.row img {
+  width: 25%;
+  height: 10%;
+  text-align: center;
+  margin-left: 37.5%;
+  margin-right: 37.5%;
+}
+form {
+  margin: 3%;
+}
+
+div .well {
+  font-family: "Courier New", Courier, monospace;
+  background-color: #333;
+  color: lime;
+  font-size: 18px;
+}
+
+body .btn{
+  font-size: 18px;
+}
+
+div .well label{
+  font-weight: bold;
+  font-size: 22px;
+}
+
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Stopwatch</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="row">
+		<h1 class="text-center"> Stopwatch </h1>
+		<h4 class="text-center">Enter the number of seconds to see a forward running timer and a reverse timer</h4>
+		<div class="text-center"><h5 id="warning">Please enter a valid number of seconds</h5></div>
+		<form class="form-inline text-center">
+			<div class="form-group">
+				<label for="userInput">Enter a time to start the timer</label>
+				<input type="text" class="form-control" id="userInput" placeholder="Number of seconds"></input>
+				<button type="submit" id="common-start" class="btn btn-danger">Go!</button>
+			</div>
+		</form>
+		<!-- <img class="img-responsive text-center" src="images/stopwatch.jpg"> -->
+
+		<div id="timers" class="col-md-4 col-md-offset-1 well">
+			<label for="stopwatch" class="text-center"> Forward Timer</label>
+			<p id="results"></p>
+			<button type="button" id="start-pause" class="btn btn-success">Start</button>
+			<button type="button" id="reset" class="btn btn-success">Reset</button>
+		</div>
+		<div class="col-md-4 col-md-offset-2 well">
+			<label for="reverse-watch" class="text-center">Reverse Timer</label>
+			<p id="results-reverse"></p>
+			<button type="button" id="start-pause-reverse" class="btn btn-success">Start</button>
+			<button type="button" id="reset-reverse" class="btn btn-success">Reset</button>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
